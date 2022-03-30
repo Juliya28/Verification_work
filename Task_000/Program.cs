@@ -1,4 +1,5 @@
-﻿string[] array1 = new string[5] {"123", "23", "hello", ":-)", "res"};
+﻿Console.Clear();
+string[] array1 = new string[5] {"123", "23", "hello", ":-)", "res"};
 string[] array2 = new string[array1.Length];
 void SecondArray(string[] array1, string[] array2)
 {
@@ -22,3 +23,4 @@ void PrintArray(string[] array)
 }
 SecondArray(array1, array2);
 PrintArray(array2);
+Console.WriteLine();
